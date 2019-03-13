@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Randomizer
 {
@@ -6,7 +7,9 @@ namespace Randomizer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var generatenumbers = new Generator();
+            generatenumbers.generateNums();
+            Console.ReadLine();
         }
     }
 }
